@@ -14,9 +14,9 @@ myApp = myApp or {}
 ################################################################################
 
 # Define a function inside the namespace
-myApp.sample = (param) ->
-  console.log "Hello " + param
-  
+# myApp.sample = (param) ->
+#   console.log "Hello " + param
+
 # Call sample on start
 $ ->
-  myApp.sample("World") 
+  # myApp.sample("World")
